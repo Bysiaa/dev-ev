@@ -16,7 +16,7 @@ Maszyny działają w tej samej sieci prywatnej, co pozwala na łatwą komunikacj
 2. Sklonuj repozytorium
 
     git clone *https://github.com/Bysiaa/dev-ev/*
-    cd twoje-repozytorium
+    cd dev-ev
 3. Uruchom maszyny wirtualne
 
     vagrant up
