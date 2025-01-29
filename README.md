@@ -1,4 +1,4 @@
-*Automatyzacja konfiguracji maszyn wirtualnych z Vagrant & VirtualBox*
+**Automatyzacja konfiguracji maszyn wirtualnych z Vagrant & VirtualBox**
 
 
 📌 Opis projektu
@@ -14,7 +14,7 @@ Maszyny działają w tej samej sieci prywatnej, co pozwala na łatwą komunikacj
   - Vagrant
   - VirtualBox
 2. Sklonuj repozytorium
-  git clone https://github.com/twoje-repozytorium.git
+  git clone *https://github.com/Bysiaa/dev-ev/*
   cd twoje-repozytorium
 3. Uruchom maszyny wirtualne
   vagrant up
