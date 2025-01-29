@@ -1,6 +1,4 @@
 **Automatyzacja konfiguracji maszyn wirtualnych z Vagrant & VirtualBox**
-
-
 📌 Opis projektu
 Projekt zawiera konfigurację Vagranta umożliwiającą automatyczne tworzenie dwóch maszyn wirtualnych:
 
@@ -37,15 +35,15 @@ Maszyny działają w tej samej sieci prywatnej, co pozwala na łatwą komunikacj
 
 
 📂 Struktura repozytorium
-/repozytorium
-│── Vagrantfile             # Konfiguracja maszyn wirtualnych
-│── python_projects/        # Folder na projekty Pythonowe (synchronizowany)
-│── cpp_projects/           # Folder na projekty C++ (synchronizowany)
-│── README.md               # Ten plik!
+  /repozytorium
+  │── Vagrantfile             # Konfiguracja maszyn wirtualnych
+  │── python_projects/        # Folder na projekty Pythonowe (synchronizowany)
+  │── cpp_projects/           # Folder na projekty C++ (synchronizowany)
+  │── README.md               # Ten plik!
 
 
 💡 Przydatne komendy
-Sprawdzenie statusu maszyn: vagrant status
-Restart maszyny: vagrant reload
-Zatrzymanie maszyn: vagrant halt
-Usunięcie maszyn: vagrant destroy
+  Sprawdzenie statusu maszyn: vagrant status
+  Restart maszyny: vagrant reload
+  Zatrzymanie maszyn: vagrant halt
+  Usunięcie maszyn: vagrant destroy
