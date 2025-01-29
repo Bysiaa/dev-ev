@@ -1,5 +1,7 @@
 **Automatyzacja konfiguracji maszyn wirtualnych z Vagrant & VirtualBox**
+
 📌 Opis projektu
+
 Projekt zawiera konfigurację Vagranta umożliwiającą automatyczne tworzenie dwóch maszyn wirtualnych:
 
 Python Development (python-dev) – środowisko do programowania w Pythonie, zawierające m.in. Pythona 3, JupyterLab, PyCharm, Docker oraz PostgreSQL.
@@ -12,10 +14,13 @@ Maszyny działają w tej samej sieci prywatnej, co pozwala na łatwą komunikacj
   - Vagrant
   - VirtualBox
 2. Sklonuj repozytorium
-  git clone *https://github.com/Bysiaa/dev-ev/*
-  cd twoje-repozytorium
+
+    git clone *https://github.com/Bysiaa/dev-ev/*
+    cd twoje-repozytorium
 3. Uruchom maszyny wirtualne
-  vagrant up
+
+    vagrant up
+    
 4. Po zakończeniu konfiguracji zaloguj się do jednej z maszyn:
   - Python Dev: vagrant ssh python-dev
   - C++ Dev: vagrant ssh cpp-dev
@@ -35,11 +40,12 @@ Maszyny działają w tej samej sieci prywatnej, co pozwala na łatwą komunikacj
 
 
 📂 Struktura repozytorium
-  - /repozytorium
-  - │── Vagrantfile             # Konfiguracja maszyn wirtualnych
-  - │── python_projects/        # Folder na projekty Pythonowe (synchronizowany)
-  - │── cpp_projects/           # Folder na projekty C++ (synchronizowany)
-  - │── README.md               # Ten plik!
+
+    /repozytorium 
+    │── Vagrantfile             # Konfiguracja maszyn wirtualnych
+    │── python_projects/        # Folder na projekty Pythonowe (synchronizowany)
+    │── cpp_projects/           # Folder na projekty C++ (synchronizowany)
+    │── README.md               # Ten plik!
 
 
 💡 Przydatne komendy
